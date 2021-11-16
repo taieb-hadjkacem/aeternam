@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Livvic:wght@100;200;300;500&display=swap" rel="stylesheet">
+    <title>aeternam</title>
+
+</head>
+<header>
+    <h1 id="title">aeternam</h1>
+    <p id="title_tag">Que vos souvenirs vivent ad vitam aeternam !</p>
+</header>
+
+<body>
+<div id="choice_box">
+    <div class="box">
+        <a href="{{url_for('colorize')}}">
+            Colorisez vos photos noir et blanc
+        </a>
+
+    </div>
+
+    <div class="box">
+        <a href="index.html">
+            Débruitez vos photos
+        </a>
+
+    </div>
+
+    <div class="box">
+        <a href="index.html">
+            Augmenter la résolution de vos photos
+        </a>
+
+    </div>
+
+    <div class="box" >
+        <a href="www.facebook.com">
+            Image   Impainting
+        </a>
+
+    </div>
+</div>
+
+
+
+</body>
+</html>
+
